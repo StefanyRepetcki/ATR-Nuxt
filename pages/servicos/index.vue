@@ -1,6 +1,4 @@
 <template>
-   <div>Conta</div>
+  <div>Conta</div>
 </template>
-<script>
-
-</script>
+<script></script>

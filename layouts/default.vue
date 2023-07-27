@@ -7,6 +7,9 @@
         <NuxtLink to="/produtos">Produtos</NuxtLink>
       </div>
     </div>
+    <div class="container mx-auto">
+      <Nuxt />
+    </div>
   </div>
 </template>
 <script></script>
