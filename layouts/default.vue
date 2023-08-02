@@ -12,4 +12,10 @@
     </div>
   </div>
 </template>
-<script></script>
+<script>
+export default {
+  data() {
+    return {}
+  },
+}
+</script>

@@ -1,5 +1,10 @@
 <template>
   <div>Slug {{ $route.params.slug }}</div>
 </template>
-
-<script></script>
+<script>
+export default {
+  data() {
+    return {}
+  },
+}
+</script>
