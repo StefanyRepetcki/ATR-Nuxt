@@ -6,7 +6,6 @@
     <div v-for="product in products" :key="product.id" class="border-b border-gray py-3">
     {{ product.title }}
     </div>
-    <!-- <pre>{{ products  }}</pre> -->
   </div>
 </template>
 <script>
@@ -14,6 +13,7 @@ export default {
   data() {
     return {}
   },
+  // executado antes do componente ser criado
   async asyncData({ $axios }) {
     const products = await $axios.$get('https://jsonplaceholder.typicode.com/posts?_limit=10')
     return {
