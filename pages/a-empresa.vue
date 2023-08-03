@@ -7,7 +7,16 @@
 <script>
 export default {
   data() {
-    return {}
+    return {};
   },
-}
+  head() {
+    return {
+      title: "Sobre",
+      meta: [
+        { hid: "title", name: "title", content: "Sobre" },
+        { hid: "description", name: "description", content: "Sobre a empresa" },
+      ],
+    };
+  },
+};
 </script>

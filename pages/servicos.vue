@@ -22,20 +22,25 @@
 export default {
   head() {
     return {
-        title: this.title,
-        meta: [
-          { hid: "description", name: "description", content: "Descrição pagina serviços" },
-        ],
-        // adicionando o atributo para a tag body
-        bodyAttrs: {
-          class: 'bg-gray-400'
-        }
-    }
+      title: this.title,
+      meta: [
+        { hid: "title", name: "title", content: "Serviços" },
+        {
+          hid: "description",
+          name: "description",
+          content: "Serviços oferecidos pela empresa",
+        },
+      ],
+      // adicionando o atributo para a tag body
+      // bodyAttrs: {
+      //   class: 'bg-gray-400'
+      // }
+    };
   },
   data() {
     return {
       services: [],
-      title: '',
+      title: "",
     };
   },
   // executado depois que o componente é criado
@@ -50,9 +55,9 @@ export default {
   methods: {
     getTitle() {
       setTimeout(() => {
-        this.title = "Serviços"
+        this.title = "Serviços";
       }, 3000);
-    }
+    },
   },
 };
 </script>

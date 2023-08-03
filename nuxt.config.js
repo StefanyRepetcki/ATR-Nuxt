@@ -9,7 +9,26 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       // hid é o identificador de cada meta tag
-      { hid: "description", name: "description", content: "Descrição SEO" },
+      { hid: "title", name: "title", content: "ATR-Nuxt" },
+      {
+        hid: "description",
+        name: "description",
+        content: "Desenvolvendo projetos com Nuxt",
+      },
+
+      //       <!-- Primary Meta Tags -->
+      // <title>Meta Tags — Preview, Edit and Generate</title>
+      // <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
+      // <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+
+      // <!-- Open Graph  -->
+      // <meta property="og:type" content="website" />
+      // <meta property="og:url" content="https://metatags.io" />
+      // <meta property="og:title" content="Meta Tags — Preview, Edit and Generate" />
+      // <meta property="og:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+      // <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+      // <!-- Meta Tags Generated with https://metatags.io -->
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
